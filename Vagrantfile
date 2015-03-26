@@ -30,7 +30,7 @@ server_swap           = "768" # Options: false | int (MB) - Guideline: Between o
 server_timezone  = "EET"
 
 # Languages and Packages
-ruby_version          = "2.2.1" # Choose what ruby version should be installed (will also be the default version)
+ruby_version          = "latest" # Choose what ruby version should be installed (will also be the default version)
 ruby_gems             = [        # List any Ruby Gems that you want to install
   #"jekyll",
   #"sass",
@@ -40,7 +40,7 @@ ruby_gems             = [        # List any Ruby Gems that you want to install
 # Default web server document root
 public_folder         = "/vagrant"
 
-nodejs_version        = "0.12.1"   # By default "latest" will equal the latest stable version
+nodejs_version        = "latest"   # By default "latest" will equal the latest stable version
 nodejs_packages       = [          # List any global NodeJS packages that you want to install
   # "grunt-cli",
   # "gulp",
