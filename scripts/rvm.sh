@@ -29,7 +29,7 @@ if [[ $RVM_IS_INSTALLED -eq 0 ]]; then
 else
     # Import Michal Papis' key to be able to verify the installation
     echo ">>> Importing rvm public key"
-    gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+    curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 
     # Install RVM and install Ruby
     if [[ $RUBY_VERSION =~ "latest" ]]; then
