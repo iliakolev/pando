@@ -53,7 +53,7 @@ Vagrant.configure("2") do |config|
   # Set server to Ubuntu 14.04
   config.vm.box = "ubuntu/trusty64"
 
-  config.vm.define "pando" do |pando|
+  config.vm.define "Pando" do |pando|
   end
 
   if Vagrant.has_plugin?("vagrant-hostmanager")
@@ -81,7 +81,7 @@ Vagrant.configure("2") do |config|
   # VirtualBox
   config.vm.provider :virtualbox do |vb|
 
-    vb.name = "pando"
+    vb.name = "Pando"
 
     # Set server cpus
     vb.customize ["modifyvm", :id, "--cpus", server_cpus]
