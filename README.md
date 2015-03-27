@@ -52,7 +52,7 @@ $ vagrant up
 
 The vagrant file does three things you should take note of:
 
-1. **Gives the virtual machine a static IP address of 192.168.0.107.** This
+1. **Gives the virtual machine a static IP address of 192.168.22.10.** This
 static IP allows us to use [xip.io](http://xip.io) for the virtual host setups
 while avoiding having to edit our computers' `hosts` file.
 2. **Uses NFS instead of the default file syncing.** NFS is reportedly faster
