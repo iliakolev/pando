@@ -41,7 +41,6 @@ $ vagrant up
 
 * Base Packages
     * Base Items (Git and more!)
-    * Vim
 * Web Servers
     * Nginx
 * Additional Languages
