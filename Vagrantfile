@@ -4,7 +4,7 @@
 # Config Github Settings
 github_username = "iliakolev"
 github_repo     = "pando"
-github_branch   = "1.0.1"
+github_branch   = "1.0.2"
 github_url      = "https://raw.githubusercontent.com/#{github_username}/#{github_repo}/#{github_branch}"
 
 # Server Configuration
