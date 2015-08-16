@@ -23,11 +23,10 @@ server_memory         = "384" # MB
 server_swap           = "768" # Options: false | int (MB) - Guideline: Between one or two times the server_memory
 
 # UTC        for Universal Coordinated Time
-# EET        for Eastern European Time
 # EST        for Eastern Standard Time
 # US/Central for American Central
 # US/Eastern for American Eastern
-server_timezone  = "EET"
+server_timezone  = "UTC"
 
 # Languages and Packages
 ruby_version          = "latest" # Choose what ruby version should be installed (will also be the default version)
@@ -112,9 +111,6 @@ Vagrant.configure("2") do |config|
 
   # optimize base box
   config.vm.provision "shell", path: "#{github_url}/scripts/base_box_optimizations.sh", privileged: true
-
-  # Provision Vim
-  # config.vm.provision "shell", path: "#{github_url}/scripts/vim.sh", args: github_url
 
 
   ####
