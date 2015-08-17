@@ -1,9 +1,12 @@
 # Pando Changelog
 
+## [1.0.4] - 2015-08-17
+
+* Use Ubuntu default repositories for `MySQL` 5.6 version
+
 ## [1.0.3] - 2015-08-17
 
 * Add `MySQL` provision
-
 
 ## [1.0.2] - 2015-08-16
 
