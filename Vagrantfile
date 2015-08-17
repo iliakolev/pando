@@ -28,6 +28,11 @@ server_swap           = "768" # Options: false | int (MB) - Guideline: Between o
 # US/Eastern for American Eastern
 server_timezone  = "UTC"
 
+# Database Configuration
+mysql_root_password   = "root"   # We'll assume user "root"
+mysql_version         = "5.6"    # Options: 5.5 | 5.6
+mysql_enable_remote   = "false"  # remote access enabled when true
+
 # Languages and Packages
 ruby_version          = "latest" # Choose what ruby version should be installed (will also be the default version)
 ruby_gems             = [        # List any Ruby Gems that you want to install
@@ -119,6 +124,14 @@ Vagrant.configure("2") do |config|
 
   # Provision Nginx Base
   # config.vm.provision "shell", path: "#{github_url}/scripts/nginx.sh", args: [server_ip, public_folder, hostname, github_url]
+
+
+  ####
+  # Databases
+  ##########
+
+  # Provision MySQL
+  # config.vm.provision "shell", path: "#{github_url}/scripts/mysql.sh", args: [mysql_root_password, mysql_version, mysql_enable_remote]
 
 
   ####
