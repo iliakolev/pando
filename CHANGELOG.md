@@ -1,5 +1,10 @@
 # Pando Changelog
 
+## [1.0.3] - 2015-08-17
+
+* Add `MySQL` provision
+
+
 ## [1.0.2] - 2015-08-16
 
 * Remove Vim provision
