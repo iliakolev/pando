@@ -10,7 +10,7 @@ Easy to use bash scripts in order to provision a Vagrant server.
 
 * Vagrant `1.5.0`+
     * Use `vagrant -v` to check your version
-* Vitualbox
+* Virtualbox
 
 ## Instructions
 
@@ -43,6 +43,8 @@ $ vagrant up
     * Base Items (Git and more!)
 * Web Servers
     * Nginx
+* Databases
+    * MySQL
 * Additional Languages
     * NodeJS via NVM
     * Ruby via RVM
