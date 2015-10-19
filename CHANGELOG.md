@@ -1,5 +1,12 @@
 # Pando Changelog
 
+## [1.1.0] - 2015-10-19
+
+* Remove custom NPM package prefix
+* Fix MySQL 5.6 bind address
+* Optimize the file attribute cache
+* Simplify retrieval of latest NodeJS version
+
 ## [1.0.4] - 2015-08-17
 
 * Use Ubuntu default repositories for `MySQL` 5.6 version
