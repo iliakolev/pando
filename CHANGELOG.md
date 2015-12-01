@@ -1,5 +1,10 @@
 # Pando Changelog
 
+## [1.1.1] - 2015-12-01
+
+* Using `en_US.UTF-8` over `C.UTF-8`
+* Using hostname variable for vb.name via
+
 ## [1.1.0] - 2015-10-19
 
 * Remove custom NPM package prefix
