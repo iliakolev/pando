@@ -20,8 +20,7 @@ sudo apt-get update
 
 # Install base packages
 # -qq implies -y --force-yes
-sudo apt-get install -qq curl unzip git-core ack-grep software-properties-common
-build-essential cachefilesd
+sudo apt-get install -qq curl unzip git-core ack-grep software-properties-common build-essential cachefilesd
 
 # Git Config and set Owner
 # curl --silent -L $github_url/helpers/gitconfig > /home/vagrant/.gitconfig
