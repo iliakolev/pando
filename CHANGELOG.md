@@ -1,5 +1,9 @@
 # Pando Changelog
 
+## [1.1.2] - 2015-12-02
+
+* Added cachefilesd to tweak nfs performance
+
 ## [1.1.1] - 2015-12-01
 
 * Using `en_US.UTF-8` over `C.UTF-8`
