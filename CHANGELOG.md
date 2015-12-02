@@ -1,5 +1,9 @@
 # Pando Changelog
 
+## [1.1.3] - 2015-12-02
+
+* Fix base packages install
+
 ## [1.1.2] - 2015-12-02
 
 * Added cachefilesd to tweak nfs performance
