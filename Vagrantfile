@@ -83,7 +83,7 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder ".", "/vagrant",
             id: "core",
             :nfs => true,
-            :mount_options => ['nolock,vers=3,udp,noatime,actimeo=2']
+            :mount_options => ['nolock,vers=3,udp,noatime,actimeo=2,fsc']
 
   # If using VirtualBox
   config.vm.provider :virtualbox do |vb|
