@@ -1,5 +1,10 @@
 # Pando Changelog
 
+## [1.1.4] - 2016-02-21
+
+* Added CET time
+* Simplify installation of latest nodejs
+
 ## [1.1.3] - 2015-12-02
 
 * Fix base packages install
